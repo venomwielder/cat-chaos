@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fce4ec;
+}
+
+#game-area {
+  margin-top: 50px;
+}
+
+#shelf {
+  position: relative;
+  width: 400px;
+  height: 30px;
+  background-color: #8d6e63;
+  margin: 0 auto;
+}
+
+.item {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #d32f2f;
+  cursor: pointer;
+  transition: top 0.5s ease;
+}
+
+.knocked-off {
+  top: 100px !important;
+  opacity: 0;
+}
+
+#score {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d32f2f;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Chaos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cat Chaos</h1>
+  <div id="game-area">
+    <div id="shelf">
+      <!-- Objects to knock off -->
+      <div class="item" style="left: 20px;" onclick="knockOff(this)"></div>
+      <div class="item" style="left: 120px;" onclick="knockOff(this)"></div>
+      <div class="item" style="left: 220px;" onclick="knockOff(this)"></div>
+      <div class="item" style="left: 320px;" onclick="knockOff(this)"></div>
+    </div>
+    <p>Score: <span id="score">0</span></p>
+    <button onclick="resetGame()">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
